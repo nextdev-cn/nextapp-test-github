@@ -2,9 +2,9 @@
   "name": "{{page.name}}",
   "versionname": "{{page.versionname}}",
   "versioncode": {{page.versioncode}},
-  "pics": {{page.imgs}},
+  "pics": {{page.imgs|jsonify}},
   "rom": "{{page.rom}}",
   "author": "{{page.author}}",
-"message": "{{content|xml_escape}}",
+  "message": "{{content|xml_escape}}",
   "url": "{{page.dlurl}}"
 }
